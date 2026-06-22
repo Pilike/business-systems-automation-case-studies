@@ -4,7 +4,7 @@ This inventory is based on a local review of Make blueprint exports. Raw exports
 
 ## Summary
 
-| Area | Blueprint count | Main systems | Public framing |
+| Area | Blueprint count | Main systems | Case study signal |
 | --- | ---: | --- | --- |
 | Printer service operations | 4 | Make, Fireberry, email/webhook intake, regex/code parsing | Service intake and warranty automation for a distributor/service team. |
 | Real estate rental operations | 9 | Make, Fireberry, Outlook/email, HTTP APIs, AI extraction, banking refresh | Rental operations CRM automation and multi-source lead/service workflow system. |
@@ -51,15 +51,14 @@ This inventory is based on a local review of Make blueprint exports. Raw exports
 - Customer product generation based on selected services.
 - Picklist value lookup utility.
 
-## Publishability
+## Portfolio Signal
 
-These workflows are strong portfolio evidence, but raw exports are not publishable. They reveal:
+These workflows are strong portfolio evidence because they show end-to-end systems thinking across intake, CRM data quality, user communication, and operational follow-up.
 
-- Webhook endpoints and zones.
-- CRM object/table/field names.
-- Credential placeholders and password-type fields.
-- Contact data mappings for phone/email/name/address.
-- Client-specific business process logic.
-- Routing and branching details that are too close to client implementation.
+The public case studies focus on the durable engineering skills behind the work:
 
-Use high-level diagrams and case-study writeups instead. Do not publish workflow skeletons, importable examples, node graphs, or reusable implementation logic.
+- Requirements gathering from messy business processes.
+- CRM data modeling and lookup-before-create design.
+- Automation reliability, retries, and exception handling.
+- AI-assisted extraction where deterministic parsing is not enough.
+- Clear handoff between CRM, email/calendar, finance, and operations workflows.

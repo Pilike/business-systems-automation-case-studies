@@ -1,10 +1,10 @@
 # Business Systems Automation Case Studies
 
-Sanitized portfolio case studies covering CRM implementation, Make automation, Fireberry workflows, Airtable operations systems, lead intake, calendar sync, service workflows, and sales operations automation.
+Anonymized portfolio case studies covering CRM implementation, Make automation, Fireberry workflows, Airtable operations systems, lead intake, calendar sync, service workflows, and sales operations automation.
 
 This repository is designed for Solutions Engineer, Business Systems Engineer, RevOps, Technical Consultant, and AI Implementation Consultant roles. It shows how I translate messy business operations into structured systems, automations, and implementation plans.
 
-The raw production automations are not included. Instead, this repo contains anonymized case studies, implementation notes, and modernization recommendations at a level suitable for public portfolio review.
+This repo contains anonymized case studies, implementation notes, and modernization recommendations that show how I approach business-systems delivery.
 
 ## Project Areas
 
@@ -27,23 +27,10 @@ The strongest way to present these projects is not as "I built automations." It 
 
 ## Repository Contents
 
-- [docs/workflow-inventory.md](docs/workflow-inventory.md) - sanitized inventory of reviewed Make blueprints.
-- [docs/source-artifacts-review.md](docs/source-artifacts-review.md) - review notes for additional confidential source artifacts.
-- [docs/reconstructed-production-system-data-model.md](docs/reconstructed-production-system-data-model.md) - public-safe reconstructed table map for the production finance system.
+- [docs/workflow-inventory.md](docs/workflow-inventory.md) - workflow-area inventory across the reviewed automation projects.
+- [docs/reconstructed-production-system-data-model.md](docs/reconstructed-production-system-data-model.md) - reconstructed table map for the production finance system.
 - [docs/review-findings.md](docs/review-findings.md) - design review and modernization recommendations.
 - [docs/make-modernization.md](docs/make-modernization.md) - how I would update legacy Make workflows today.
-- [docs/repo-strategy.md](docs/repo-strategy.md) - what should be one repo vs separate repos.
-- [docs/project-questionnaire.md](docs/project-questionnaire.md) - questions to recover project details safely.
-- [docs/interview-questions-by-company.md](docs/interview-questions-by-company.md) - tailored questions for each company/project.
-
-## What Is Not Included
-
-- Raw Make blueprint JSON exports.
-- Workflow skeletons, importable examples, node graphs, or reusable implementation logic.
-- Fireberry object IDs, field IDs, picklist values, API configuration, or credentials.
-- Webhook URLs and Make hook IDs.
-- Real client names, phone numbers, emails, financial records, legal records, insurance records, or rental leads.
-- Company-specific implementation details that would let another party recreate a client system.
 
 ## Skills Demonstrated
 

@@ -12,7 +12,7 @@ This review summarizes improvements I would make before maintaining or rebuildin
 
 ## Priority Fixes
 
-1. **Do not publish raw exports.** Rotate any active webhook URLs that appeared in exports before public sharing.
+1. **Keep implementation artifacts controlled.** Maintain clean separation between production workflow exports, environment secrets, and portfolio documentation.
 2. **Add idempotency keys.** Use source message IDs, lead IDs, webhook event IDs, or external record IDs to prevent duplicates during retries.
 3. **Centralize error handling.** Add a dead-letter pattern for failed records with scenario name, source event ID, payload summary, failure reason, and retry status.
 4. **Move magic values to config.** Picklist IDs, status IDs, object IDs, and branch constants should live in a config datastore/table where possible.
@@ -54,7 +54,7 @@ Recommended split:
 - Use a sync map table: Fireberry event ID, Outlook event ID, last synced timestamp, last source, and conflict status.
 - Prevent loops by writing a source marker on updates and ignoring echoes.
 - Add conflict handling when both sides changed after the last sync.
-- Keep manual repair flows private; publish only the pattern.
+- Keep manual repair flows separate from the main production path and document the stable sync pattern clearly.
 
 ### Insurance And Tax Lead Automation
 
@@ -62,4 +62,3 @@ Recommended split:
 - Add validation for phone/email before CRM upsert.
 - Use a duplicate strategy for Facebook leads using leadgen ID plus normalized phone/email.
 - Route low-confidence or missing-data leads to manual review instead of creating incomplete opportunities.
-

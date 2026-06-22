@@ -4,7 +4,7 @@
 
 A production company needed a lightweight operational system for estimating, production budgeting, bookkeeping, cash-flow tracking, and management reporting.
 
-The original Airtable base is not available for public documentation, but a legacy production finance workbook was reviewed and is detailed enough to reconstruct the system requirements and table model safely.
+The work centered on translating spreadsheet-heavy production finance operations into a structured low-code system that non-technical teams could use day to day.
 
 ## Reconstructed System Areas
 
@@ -20,19 +20,10 @@ The original Airtable base is not available for public documentation, but a lega
 - Management dashboards for cash flow, profit/loss, unpaid expenses, future income, and budget variance.
 - Operational views for production managers, finance/admin users, and leadership.
 
-## What To Add Later
+## Business Value
 
-- Synthetic Airtable interface screenshots.
-- Fake sample records.
-- Before/after workflow diagram.
-- Automation map.
-- Outcome metrics if available.
-- Confirmation of which reconstructed tables match the final Airtable implementation.
-
-## Portfolio Value
-
-This can become a strong business systems case because it shows how an Excel-heavy finance process can be translated into a low-code operating system for non-technical teams.
+This case demonstrates how an Excel-heavy finance process can become a structured operating system with clearer ownership, cleaner reporting, and better visibility into budget health.
 
 ## Related Artifact
 
-The [production finance operating system analysis](production-company-excel-system-analysis.md) provides the requirements backbone. The public-safe reconstructed schema is documented in [reconstructed-production-system-data-model.md](../docs/reconstructed-production-system-data-model.md).
+The [production finance operating system analysis](production-company-excel-system-analysis.md) provides the requirements backbone. The reconstructed table map is documented in [reconstructed-production-system-data-model.md](../docs/reconstructed-production-system-data-model.md).

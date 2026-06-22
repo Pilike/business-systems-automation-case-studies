@@ -1,9 +1,5 @@
 # Production Finance Operating System Analysis
 
-## Status
-
-Confidential source artifacts reviewed. Public materials use anonymized company details, synthetic examples, and reconstructed schema documentation only.
-
 ## Problem
 
 A production company was running a large portion of its finance and operations process through a macro-enabled Excel workbook. The workbook had grown into a business operating system for production setup, budgets, expenses, income, cash flow, VAT handling, petty cash, office overhead, and management reporting.
@@ -12,7 +8,7 @@ The company needed a clearer path toward a scalable system that could preserve t
 
 ## Source Review
 
-Reviewed a legacy `.xlsm` workbook and a supporting requirements document. The workbook included:
+Analyzed a legacy `.xlsm` workbook and a supporting requirements document. The workbook included:
 
 - 26 worksheets, including production-specific budget sheets, template sheets, dashboard sheets, income and expense ledgers, office overhead, and lookup/configuration tables.
 - Macro/VBA content, workbook tables, chart objects, pivot artifacts, formulas, and data validations.
@@ -20,13 +16,11 @@ Reviewed a legacy `.xlsm` workbook and a supporting requirements document. The w
 - Income and expense ledgers connected back to productions, budget categories, invoice data, payment status, payment dates, VAT status, and payment methods.
 - Production budget templates for local and international productions with above-the-line and below-the-line budget structures.
 
-The raw workbook contains real production names, financial data, and operational details and is intentionally excluded from this repository.
-
 ## Work Performed
 
 - Reverse-engineered the workbook into a normalized business data model.
 - Mapped spreadsheet formulas into system behaviors, rollups, reporting views, and automation candidates.
-- Identified the main entities required for a public-safe Airtable-style implementation.
+- Identified the main entities required for an Airtable-style implementation.
 - Separated reusable system concepts from client-specific workbook details.
 - Documented the migration path from spreadsheet logic to structured operational software.
 
@@ -66,17 +60,10 @@ flowchart LR
 
 ## Example Data Model
 
-See [reconstructed-production-system-data-model.md](../docs/reconstructed-production-system-data-model.md) for the public-safe table map and reporting model.
+See [reconstructed-production-system-data-model.md](../docs/reconstructed-production-system-data-model.md) for the reconstructed table map and reporting model.
 
-## Portfolio Value
+## Business Value
 
-This case is valuable because it shows systems analysis, solution architecture, and migration thinking. The useful story is not "I edited a spreadsheet." It is:
+This case shows systems analysis, solution architecture, and migration thinking:
 
 > I reverse-engineered a real production finance workbook and translated it into a structured operating-system design with normalized data, reporting views, and migration-ready workflows.
-
-## What To Add Later
-
-- Synthetic Airtable screenshots based on the reconstructed schema.
-- A recreated dashboard with fake production data.
-- A before/after process diagram.
-- Notes confirming which parts were implemented in Airtable and which remained design or requirements artifacts.

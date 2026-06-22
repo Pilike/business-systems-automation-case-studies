@@ -1,8 +1,8 @@
 # Enterprise Retail CRM Solution Design
 
-## Status
+## Scope
 
-Pre-sales/discovery and solution design case. The deal did not close, so this should not be presented as an implemented production system.
+Pre-sales discovery and solution architecture for an enterprise retail CRM rollout.
 
 ## Problem
 
@@ -44,18 +44,6 @@ flowchart LR
     L[Customer feedback platform] --> B
 ```
 
-## Portfolio Value
+## Business Value
 
 This case is useful for Solutions Engineer and Technical Consultant positioning because it shows pre-sales discovery, enterprise CRM architecture, integration planning, data modeling, workflow design, API specification, permissions planning, and implementation scoping.
-
-## How To Phrase Publicly
-
-Use:
-
-> Supported CRM solution architecture and implementation planning for an enterprise retail prospect.
-
-Avoid:
-
-> Implemented the retailer's CRM.
-
-The second statement would be inaccurate because the deal did not close.

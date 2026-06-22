@@ -1,6 +1,6 @@
 # Reconstructed Production System Data Model
 
-This document reconstructs a public-safe schema from a confidential legacy production finance workbook. It does not include client records, real production names, financial amounts, vendor names, formulas, macros, or the original workbook.
+This document reconstructs the core operating model behind a legacy production finance workbook. It focuses on the system design: entities, relationships, reporting views, and automation opportunities.
 
 The goal is to show how a spreadsheet-based operating process can be translated into a maintainable business system for production budgeting, bookkeeping, cash-flow tracking, petty cash, and management reporting.
 
