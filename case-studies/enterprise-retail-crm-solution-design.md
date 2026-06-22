@@ -56,7 +56,6 @@ Use:
 
 Avoid:
 
-> Implemented Office Depot CRM.
+> Implemented the retailer's CRM.
 
 The second statement would be inaccurate because the deal did not close.
-

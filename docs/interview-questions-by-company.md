@@ -169,7 +169,7 @@ This was a Monday.com CRM migration/implementation for a design, engineering, an
 13. What did you personally own: design, migration, board setup, automation, training, support?
 14. Can we safely describe this as "sales operations CRM implementation for a construction/design firm"?
 
-## Nawi / Production Company Excel System
+## Production Company Excel System
 
 ### Current Assumption
 
@@ -178,7 +178,7 @@ This was a discovery and systems-analysis project for a production company that 
 ### Questions
 
 1. What was the company actually called publicly, and should we anonymize it?
-2. Was this Nawi, NawiPro, or a production company using a Nawi-related system?
+2. Was this the same project as the Airtable estimating/bookkeeping system, or a separate production-finance analysis?
 3. What was your exact role: analysis only, system design, Airtable build, Excel cleanup, automation, implementation, or handoff?
 4. Was the goal to replace Excel with Airtable, improve Excel, or document requirements for another system?
 5. Who used the workbook daily: producer, bookkeeper, production manager, owner, accountant, or office admin?
@@ -196,11 +196,11 @@ This was a discovery and systems-analysis project for a production company that 
 17. Any measurable result: faster reports, fewer errors, better cash-flow visibility, easier invoice tracking?
 18. Can we safely describe this as "production operations and financial workflow system analysis"?
 
-## Office Depot / Enterprise Retail CRM Proposal
+## Enterprise Retail CRM Proposal
 
 ### Current Assumption
 
-This was a pre-sales/discovery CRM solution design with your boss. It mapped a potential Fireberry implementation for Office Depot, including lead management, customer clubs, Comax ERP integration, Glassix, Inforu, dashboards, permissions, API endpoints, sync jobs, and rollout milestones. The deal did not close, so it must be framed as solution design, not implementation.
+This was a pre-sales/discovery CRM solution design with your boss. It mapped a potential Fireberry implementation for an enterprise retail prospect, including lead management, customer clubs, ERP integration, service-channel integrations, marketing consent, dashboards, permissions, API endpoints, sync jobs, and rollout milestones. The deal did not close, so it must be framed as solution design, not implementation.
 
 ### Questions
 
@@ -217,7 +217,7 @@ This was a pre-sales/discovery CRM solution design with your boss. It mapped a p
 11. Were the warm/cold lead workflows based on client discovery or your proposed best practice?
 12. Was role/permission planning part of your contribution?
 13. What did you learn from the deal not closing?
-14. Can we publicly mention Office Depot by name, or should we anonymize as "enterprise retail prospect"?
+14. Can we safely describe the prospect by industry and scale without naming the company?
 15. Would you be comfortable discussing this as "pre-sales CRM solution architecture" in interviews?
 16. Any artifacts we can safely recreate: anonymized architecture diagram, API endpoint table, process flow, roles matrix?
 

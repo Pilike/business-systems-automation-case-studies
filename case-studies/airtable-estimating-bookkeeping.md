@@ -2,32 +2,37 @@
 
 ## Problem
 
-A production company needed a lightweight operational system for estimating and bookkeeping, but the exact public-safe design assets still need to be recovered.
+A production company needed a lightweight operational system for estimating, production budgeting, bookkeeping, cash-flow tracking, and management reporting.
 
-## Likely System Areas
+The original Airtable base is not available for public documentation, but a legacy production finance workbook was reviewed and is detailed enough to reconstruct the system requirements and table model safely.
 
-- Customer/job records.
-- Estimate creation.
-- Line-item tracking.
-- Expenses and bookkeeping status.
-- Payment/invoice tracking.
-- Operational views for different users.
-- Reporting for management.
+## Reconstructed System Areas
+
+- Production records.
+- Budget templates for different production types.
+- Above-the-line and below-the-line budget lines.
+- Estimate and approved budget tracking.
+- Expense and supplier invoice ledger.
+- Income, broadcaster/client payment milestones, and funding records.
+- VAT status and calculated tax amounts.
+- Petty cash received, used, and remaining.
+- Office overhead budget and actuals.
+- Management dashboards for cash flow, profit/loss, unpaid expenses, future income, and budget variance.
+- Operational views for production managers, finance/admin users, and leadership.
 
 ## What To Add Later
 
-- Redacted table map.
+- Synthetic Airtable interface screenshots.
 - Fake sample records.
-- Screenshots of recreated interfaces or a design file.
 - Before/after workflow diagram.
 - Automation map.
 - Outcome metrics if available.
-- Confirm whether the production-company Excel analysis was part of this Airtable work or a separate project.
+- Confirmation of which reconstructed tables match the final Airtable implementation.
 
 ## Portfolio Value
 
-This can become a strong business systems case if the base design or screenshots can be recreated. Airtable is useful for showing rapid operational system design for non-technical teams.
+This can become a strong business systems case because it shows how an Excel-heavy finance process can be translated into a low-code operating system for non-technical teams.
 
 ## Related Artifact
 
-The production-company Excel analysis case may provide the missing requirements backbone for this story if it was part of the same project. If they were separate, keep them as separate case studies: one Airtable estimating/bookkeeping build, and one Excel-to-system analysis project.
+The [production finance operating system analysis](production-company-excel-system-analysis.md) provides the requirements backbone. The public-safe reconstructed schema is documented in [reconstructed-production-system-data-model.md](../docs/reconstructed-production-system-data-model.md).
