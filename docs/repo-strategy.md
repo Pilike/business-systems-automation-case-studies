@@ -14,25 +14,22 @@ Use this repo for Make, Fireberry, Airtable, Monday.com, CRM, sales operations, 
 
 Split Airtable into its own repo only if you find enough material:
 
-- redacted base schema,
-- screenshots or design file,
-- table map,
-- automation map,
-- estimating workflow,
-- bookkeeping workflow,
-- permissions/roles,
+- conceptual table map,
+- recreated screenshots using fake data,
+- before/after process map,
+- role/responsibility summary,
 - before/after business process.
 
 ### 4. Optional Later: `crm-sales-automation-system`
 
 Split ADU into its own repo only if you can reconstruct enough:
 
-- CRM object model,
-- lead/opportunity stages,
-- proposal/contract automation,
-- SLA process,
+- CRM process overview,
+- lead/opportunity stage summary,
+- proposal/contract process description,
+- SLA process summary,
 - measurable outcome,
-- before/after workflow diagram.
+- before/after process diagram.
 
 ## Why Not Too Many Repos
 
@@ -44,7 +41,6 @@ Recruiters do not need ten thin repos. They need three strong signals:
 
 The strongest portfolio shape is:
 
-- Noga repo for flagship AI platform work.
+- A case-study-only AI platform repo for flagship AI/business-systems work.
 - Business systems case-study repo for implementation consulting work.
 - One personal project repo if it is polished enough to show hands-on ownership.
-

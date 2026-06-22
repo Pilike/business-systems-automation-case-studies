@@ -62,5 +62,4 @@ These workflows are strong portfolio evidence, but raw exports are not publishab
 - Client-specific business process logic.
 - Routing and branching details that are too close to client implementation.
 
-Use sanitized diagrams, workflow skeletons, and case-study writeups instead.
-
+Use high-level diagrams and case-study writeups instead. Do not publish workflow skeletons, importable examples, node graphs, or reusable implementation logic.

@@ -40,6 +40,5 @@ Use these prompts to recover missing project details without exposing confidenti
 - Which flows were production-critical?
 - Which were one-time migration or repair flows?
 - Which flows are legacy and should be described only as "earlier implementation"?
-- Were any flows rebuilt later in Noga/n8n or another system?
+- Were any flows rebuilt later in a different automation platform or business system?
 - Which flows had the best business impact?
-

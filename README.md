@@ -4,7 +4,7 @@ Sanitized portfolio case studies covering CRM implementation, Make automation, F
 
 This repository is designed for Solutions Engineer, Business Systems Engineer, RevOps, Technical Consultant, and AI Implementation Consultant roles. It shows how I translate messy business operations into structured systems, automations, and implementation plans.
 
-The raw production automations are not included. Instead, this repo contains anonymized case studies, workflow patterns, implementation notes, and modernization recommendations.
+The raw production automations are not included. Instead, this repo contains anonymized case studies, implementation notes, and modernization recommendations at a level suitable for public portfolio review.
 
 ## Project Areas
 
@@ -35,11 +35,11 @@ The strongest way to present these projects is not as "I built automations." It 
 - [docs/repo-strategy.md](docs/repo-strategy.md) - what should be one repo vs separate repos.
 - [docs/project-questionnaire.md](docs/project-questionnaire.md) - questions to recover project details safely.
 - [docs/interview-questions-by-company.md](docs/interview-questions-by-company.md) - tailored questions for each company/project.
-- [examples/workflow-patterns](examples/workflow-patterns) - sanitized workflow skeletons.
 
 ## What Is Not Included
 
 - Raw Make blueprint JSON exports.
+- Workflow skeletons, importable examples, node graphs, or reusable implementation logic.
 - Fireberry object IDs, field IDs, picklist values, API configuration, or credentials.
 - Webhook URLs and Make hook IDs.
 - Real client names, phone numbers, emails, financial records, legal records, insurance records, or rental leads.

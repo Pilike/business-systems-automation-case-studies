@@ -14,20 +14,20 @@ For each company/project, answer in this format:
 - **Outcome:** time saved, fewer mistakes, faster response, better sales, better visibility, fewer missed tasks.
 - **Proof:** screenshots, fake-data recreation, diagrams, docs, rough numbers, or a story from rollout.
 
-## Locwise / Noga
+## AI Tender Intelligence Platform
 
 ### Current Assumption
 
-This is the flagship AI implementation project: an AI tender intelligence platform with scraping, document AI, Supabase/PostgreSQL, n8n, ASP.NET Core, matching, CRM, WhatsApp, email, onboarding, and production support.
+This is the flagship AI implementation project: an employer-associated AI tender intelligence platform with discovery, document AI, database-backed workflows, web portal work, matching, CRM-style follow-up, messaging/email delivery, onboarding, and production support.
 
 ### Questions
 
 1. Who was the target user: business owner, sales team, tender writer, operations manager, or someone else?
-2. What was the manual process before Noga existed?
+2. What was the manual process before the platform existed?
 3. How many tender sources or source types did the platform handle at peak?
 4. Did clients receive daily/weekly reports, real-time alerts, portal dashboards, or all three?
 5. What was the biggest technical challenge: scraping, Hebrew documents, matching accuracy, CRM/payment/onboarding, or production reliability?
-6. Did Noga ever help a client identify a real tender opportunity they might have missed?
+6. Did the platform ever help a client identify a real tender opportunity they might have missed?
 7. What parts did you build mostly yourself versus configure/integrate?
 8. What would you improve in v2: matching accuracy, admin tooling, observability, onboarding, source config UI, or workflow reliability?
 
@@ -206,7 +206,7 @@ This was a pre-sales/discovery CRM solution design with your boss. It mapped a p
 
 1. What was your personal contribution: discovery notes, diagrams, API planning, ERD, workflows, Hebrew doc writing, Fireberry scoping, or technical review?
 2. Did you participate in client meetings, internal planning, or both?
-3. Was Fireberry leading the sale and Locwise/you supporting implementation architecture?
+3. Was the CRM vendor leading the sale while your team supported implementation architecture?
 4. What was the biggest business need: lead management, ERP integration, customer clubs, service-channel visibility, dashboards, or SLA control?
 5. What was Comax supposed to provide: customers, orders, clubs, sales history, inventory, pricing, or all of these?
 6. What was Glassix supposed to contribute: tickets, chats, calls, customer interactions, or service requests?
