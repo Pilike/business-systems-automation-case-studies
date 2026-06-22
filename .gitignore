@@ -1,0 +1,13 @@
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.local.*
+
+# Do not commit raw customer automation exports.
+*.blueprint.json
+*.make.json
+raw-exports/
+client-files/
+screenshots/private/
+

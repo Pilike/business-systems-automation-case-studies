@@ -1,0 +1,24 @@
+{
+  "name": "Lead intake to CRM upsert pattern",
+  "sanitized": true,
+  "notImportable": true,
+  "purpose": "Capture a lead from a form, email, or ad platform, normalize contact data, and create or update CRM records.",
+  "steps": [
+    "Receive webhook/mailhook/ad lead event",
+    "Validate source and required fields",
+    "Normalize phone, email, name, and language-specific fields",
+    "Lookup CRM account/contact by external lead id, phone, or email",
+    "Create account/contact when no match exists",
+    "Create or update opportunity/case",
+    "Write audit log with source event id",
+    "Route incomplete or low-confidence records to manual review"
+  ],
+  "controls": [
+    "idempotency key",
+    "duplicate detection",
+    "manual review route",
+    "error/dead-letter logging",
+    "webhook secret validation"
+  ]
+}
+

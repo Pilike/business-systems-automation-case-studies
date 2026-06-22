@@ -1,0 +1,24 @@
+{
+  "name": "AI email extraction pattern",
+  "sanitized": true,
+  "notImportable": true,
+  "purpose": "Extract structured CRM-ready facts from unstructured emails while keeping deterministic guardrails around record creation.",
+  "steps": [
+    "Watch mailbox or receive forwarded email",
+    "Strip signatures and quoted replies",
+    "Classify email type",
+    "Extract structured fields using schema-enforced AI output",
+    "Validate required fields and confidence score",
+    "Lookup CRM records",
+    "Create draft case/opportunity or route to manual review",
+    "Store extraction summary and raw source reference"
+  ],
+  "controls": [
+    "schema validation",
+    "confidence threshold",
+    "sensitive-data policy",
+    "manual review",
+    "retry/error logging"
+  ]
+}
+

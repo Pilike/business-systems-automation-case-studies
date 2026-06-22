@@ -1,0 +1,22 @@
+{
+  "name": "Two-way calendar sync pattern",
+  "sanitized": true,
+  "notImportable": true,
+  "purpose": "Synchronize CRM events and Outlook calendar events without creating loops or overwriting newer data.",
+  "steps": [
+    "Receive event changed trigger from CRM or calendar",
+    "Load sync map by source event id",
+    "Compare last synced timestamp and source marker",
+    "Create or update the paired event",
+    "Persist crm_event_id, calendar_event_id, last_source, and last_synced_at",
+    "Route conflicts to manual review"
+  ],
+  "controls": [
+    "sync map table",
+    "source marker",
+    "conflict detection",
+    "loop prevention",
+    "manual repair scenario"
+  ]
+}
+
